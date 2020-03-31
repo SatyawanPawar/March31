@@ -48,6 +48,10 @@ public class HomePage extends TestBase {
 		Assert.assertEquals(title, "Facebook – log in or sign up", "Failed");
 		// return "";
 	}
+	
+	public void newFun() {
+		System.out.println("Testing Git");
+	}
 
 	public UserHomePage loginSystem(String uname, String pass) {
 		username.sendKeys(uname);
