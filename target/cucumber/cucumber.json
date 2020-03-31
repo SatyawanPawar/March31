@@ -1,0 +1,49 @@
+[
+  {
+    "line": 6,
+    "elements": [
+      {
+        "line": 9,
+        "name": "Title of your scenario",
+        "description": "",
+        "id": "homepage-tests;title-of-your-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "validatePageTitle",
+            "match": {},
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HomePage"
+          },
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Homepage tests",
+    "description": "",
+    "id": "homepage-tests",
+    "keyword": "Feature",
+    "uri": "src\\test\\java\\com\\pom\\qa\\featurestests\\HomePage.feature",
+    "tags": [
+      {
+        "name": "@HomePage",
+        "type": "Tag",
+        "location": {
+          "line": 5,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
